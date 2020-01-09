@@ -15,6 +15,183 @@ code {
 
 
 
+span{
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	font-weight: 500;
+
+}
+
+
+
+
+
+.canvas-btn{
+	display: inline-block;
+
+	
+
+
+	position: relative;
+	border-radius: 5px;
+
+	background-color: #2271e7;
+
+}
+
+.canvas-btn.disabled{
+	opacity: 0.3;
+}
+
+/*NORMAL BUTTON STYLES*/
+
+/*normal solid*/
+
+.canvas-btn.normal-solid{
+	background-color: #2271e7;
+	color: #ffffff;
+	border:0;
+
+}
+
+.canvas-btn.normal-solid:hover{
+	background-color: #1092ff;
+}
+
+.canvas-btn.normal-solid:active{
+	background-color: #245fd4;
+}
+
+/*normal outline*/
+
+.canvas-btn.normal-outline{
+	background: transparent;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #2271e7;
+	color:#2271e7;
+}
+
+.canvas-btn.normal-outline:hover{
+	border-color: #1092ff;
+	background-color: #e3f2ff;
+	color: #1092ff;
+}
+
+.canvas-btn.normal-outline:active{
+	border-color: #245fd4;
+	background-color: #bbddff;
+	color: #245fd4;
+}
+
+
+/*normal ghost*/
+.canvas-btn.normal-ghost{
+	background-color: transparent;
+	border:0;
+	color: #2271e7;
+}
+
+.canvas-btn.normal-ghost:hover{
+	color: #1092ff;
+	background-color: #e3f2ff;
+}
+
+.canvas-btn.normal-ghost:active{
+	color: #245fd4;
+	background-color: #bbddff;
+}
+
+
+
+
+
+/*DELETE BUTTON STYLES*/
+
+
+/*delete solid*/
+.canvas-btn.delete-solid{
+	background-color: #cb181e;
+	color: #ffffff;
+	border:0;
+}
+
+.canvas-btn.delete-solid:hover{
+	background-color: #d82225;
+}
+
+.canvas-btn.delete-solid:active{
+	background-color: #bb071b;
+}
+
+
+/*delete outline*/
+
+.canvas-btn.delete-outline{
+	background: transparent;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #cb181e;
+	color:#cb181e;
+}
+
+.canvas-btn.delete-outline:hover{
+	color: #d82225;
+	border-color: #d82225;
+	background-color: #FFEAED;
+}
+
+.canvas-btn.delete-outline:active{
+	color: #bb071b;
+	border-color: #bb071b;
+	background-color: #FFCCD0;
+
+}
+
+
+/*delete ghost*/
+
+.canvas-btn.delete-ghost{
+	background-color: transparent;
+	border:0;
+	color: #cb181e;
+}
+
+.canvas-btn.delete-ghost:hover{
+	background-color: #FFEAED;
+	color: #d82225;
+}
+
+.canvas-btn.delete-ghost:active{
+	background-color: #FFCCD0;
+	color:#bb071b;
+}
+
+
+/*SIZES*/
+.canvas-btn.regular{
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.canvas-btn.small{
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
 .wrap_div{
   position: relative;
   padding-left: 100px;
